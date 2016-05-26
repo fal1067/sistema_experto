@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	background: #4ECDC4;
+	height: 100px;
+}
+nav{
+	background: #ff7474;
+	height: 40px;
+	margin: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	width: 100%;
+}
+nav ul{
+	background: 
+	text-align: center;
+	text-decoration: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: verdana;
+	line-height: 40px;
+}
+section{
+	background: #f2ffd5;
+	padding: 30px 0;
+	text-align: center;
+}
+#cabecera h1{
+	line-height: 140px;
+	/**text-shadow: 2px 2px 8px #555; **/
+}
+#cabecera{
+	background: #4ECDC4;
+	color: #fff;
+	font-family: netsrak;
+	font-size: 30px;
+	height: 100px;
+	padding: 40px;
+	text-align: center;
+	width: 100%;
+	
+}
+#caja1{
+	height: 50%;
+	margin-right: 200px;
+}
+#caja2{
+	height: 500px;
+	background: #F87E7B;
+	padding: 0;
+	width: 3000px;
+}
+#caja1, #caja2{
+	display: inline-block;
+	height: 30%;
+	margin-bottom: 70px;
+	width: 10%;
+}
+#iniciar{}
+#logo, #titulo{
+	display: inline-block;
+}
+#preguntas{
+	margin-top: 20px;
+	text-align: center;
+}
+#preguntas div{
+	border: 3px solid #222;
+	border-radius: 15px;
+	display: inline-block;
+	margin-right: 40px;
+	padding: 10px;
+}
+#preguntas div:hover{
+	background: #d0fefb;
+	border: 3px solid #4ECDC4;
+	box-shadow: 0px 0px 9px #b7fffa;
+}
